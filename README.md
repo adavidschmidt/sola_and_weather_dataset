@@ -4,7 +4,7 @@ Create a dataset for future analysis and modeling to predict solar energy output
 This is a personal project. The goals of the project were to create and clean a dataset that I can use for future analysis and review of my personal solar production.
 
 Data sources:
-Weather data was sourced from the National Center for Environmental Information (https://www.ncei.noaa.gov/cdo-web/datatools/lcd) with my location.
+Weather data was sourced from the National Center for Environmental Information (NCEI) (https://www.ncei.noaa.gov/cdo-web/datatools/lcd) with my location.
 Solar data was sourced through my solar micro-inverter provider (Enphase Energy)
 
 Key features of the project:
@@ -13,3 +13,10 @@ Key features of the project:
 3. Cleaning and transforming the data
 4. Joining datasets
 5. Creating a final dataset with only columns needed for analysis
+
+
+Documents in the repository:
+Solar_dataset.ipynb - This is the notebook containing the code used to create the solar_and_weather.csv dataset
+solar_data.csv - This is the solar data generated and sourced from the micro-inverter provider.
+weather_subset.csv - This is part of the weather data generated and sourced from the NCEI. The original dataset is too large to include in this repository. Sampling steps can be seen in the notebook.
+solar_and_weather.csv - This is the dataset containing the weather information as well as the solar information. This will be used for future analysis and predictive modeling.
