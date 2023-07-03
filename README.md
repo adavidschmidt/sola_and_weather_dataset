@@ -23,4 +23,6 @@ solar_data.csv - This is the solar data generated and sourced from the micro-inv
 
 weather_subset.csv - This is part of the weather data generated and sourced from the NCEI. The original dataset is too large to include in this repository. Sampling steps can be seen in the notebook.
 
-solar_and_weather.csv - This is the dataset containing the weather information as well as the solar information. This will be used for future analysis and predictive modeling.
+daily_solar_weather_data.csv - This is the dataset containing the weather information as well as the solar information for the whole day. This will be used for future analysis and predictive modeling.
+
+hourly_solar_weather_data.csv - This is a dataset containing hourly information on weather and solar data. This dataset is missing some information due to datetime differences in the weather and solar datasets; however, will still be useful for generating models and analysis on hourly changes.
